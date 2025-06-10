@@ -51,7 +51,6 @@ class MailerStreamer:
                     message['To'] = table.cell(1,1).text
                     message['Subject'] = table.cell(2,1).text
                     # Создаем тело сообщения
-                    print(message['To'])
                     message_body = str()
                     # Записываем текст сообщения в тело
                     for paragraph in docx_document.paragraphs:
