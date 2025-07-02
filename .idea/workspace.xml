@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="884e1a5f-7ee1-409a-8f1a-dc6fc49406a4" name="Changes" comment="First commit of sendmail">
+    <list default="true" id="884e1a5f-7ee1-409a-8f1a-dc6fc49406a4" name="Changes" comment="Small changes in sendmail">
+      <change afterPath="$PROJECT_DIR$/csvtoperson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sendmail.py" beforeDir="false" afterPath="$PROJECT_DIR$/sendmail.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +30,12 @@
     &quot;assignee&quot;: &quot;link-qwerty&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/link-qwerty/worspace-free.git",
-    "accountId": "f12ef600-c083-4026-9faa-6489d2080444"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/link-qwerty/worspace-free.git&quot;,
+    &quot;accountId&quot;: &quot;f12ef600-c083-4026-9faa-6489d2080444&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -45,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.csvtoperson.executor": "Run",
     "Python.sendmail.executor": "Run",
     "Python.stream_xml_parse.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -106,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749578723264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Small changes in sendmail">
+      <option name="closed" value="true" />
+      <created>1749578825204</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749578825204</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +135,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Small changes" />
     <MESSAGE value="First commit of sendmail" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit of sendmail" />
+    <MESSAGE value="Small changes in sendmail" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small changes in sendmail" />
   </component>
 </project>

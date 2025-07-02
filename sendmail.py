@@ -63,7 +63,7 @@ class MailerStreamer:
                         server.login(args.sender_email, args.sender_password)
                         # Отправляем сообщение
                         result = f'From: {message['From']}\nTo: {message['To']}\nDate:{datetime.now()}'
-                        server.sendmail(message['From'], str.split(table.cell(1,1).text), message.as_string())
+                        server.sendmail(message['From'], message['To'].split(','), message.as_string())
                         # Разлогиниваемся
                         server.quit()
                 elif table.cell(0,0).text == "SYSFOOTER":
